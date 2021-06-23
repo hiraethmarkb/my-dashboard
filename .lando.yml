@@ -1,0 +1,8 @@
+name: my-dashboard
+recipe: symfony
+config:
+  php: '7.4'
+  via: apache:2.4
+  webroot: public
+  database: mariadb:10.3
+  xdebug: false
